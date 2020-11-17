@@ -8,5 +8,5 @@ Built using Vue.js and Vuetify UI and using localstorage.
 - [ ] Move from localStorage to cloud storage  
 - [ ] User login and authenication  
 - [ ] Image storage  
-- [ ] Track if gift has been bought  
+- [x] Track if gift has been bought  
 
