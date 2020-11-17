@@ -46,7 +46,11 @@
       <ul>
         <li v-for="(gift, index) in selectedPerson.Gifts" :key="gift.id">
           <v-card max-width="400" class="mx-auto">
-            <v-img class="mx-auto" :src="gift.img === '' ? defaultGiftImg : gift.img" contain height="200" width="200"></v-img>
+            <v-img class="mx-auto" :src="gift.img === '' ? defaultGiftImg : gift.img" contain height="200" width="200">
+              <v-btn class="mx-2" fab dark small :color="gift.bought ? 'success' : 'grey'" @click="gift.bought = !gift.bought">
+                <v-icon dark :color="gift.bought ? '' : 'blue-grey'"> mdi-check </v-icon>
+              </v-btn>
+            </v-img>
 
             <v-card-title class="mx-auto">
               {{ gift.GiftName }}

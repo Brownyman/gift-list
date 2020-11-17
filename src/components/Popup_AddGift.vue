@@ -31,6 +31,7 @@ export default {
         id: this.newId,
         GiftName: "",
         GiftURL: "",
+        bought: false,
         Cost: 0.0,
         img: ""
       }
@@ -44,6 +45,7 @@ export default {
         id: this.newId,
         GiftName: "",
         GiftURL: "",
+        bought: false,
         Cost: 0.0,
         img: ""
       }
