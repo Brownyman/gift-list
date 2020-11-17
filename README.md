@@ -1,24 +1,12 @@
 # gift-list
 
-## Project setup
-```
-npm install
-```
+Gift List is an app to help you keep track of the gifts you want to get for family and friends.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Built using Vue.js and Vuetify UI and using localstorage.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Upcoming features
+- [ ] Move from localStorage to cloud storage  
+- [ ] User login and authenication  
+- [ ] Image storage  
+- [ ] Track if gift has been bought  
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
